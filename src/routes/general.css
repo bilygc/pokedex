@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.btn{
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif!important;
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+    padding: 3px 30px!important;
+}
+.btn:disabled{
+    background-color: #cdcfe2!important;
+    border-color: #cdcfe2!important;
+}
+
+.search-error{
+    position: absolute;
+    bottom: 3%;    
+    left: 50%;
+    transform: translateX(-50%);
+    background: #ffee8a;
+    padding: 0 20px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+@media (min-width: 768px){
+    .container.inner-container{
+        max-width: 425px;
+    }
+}

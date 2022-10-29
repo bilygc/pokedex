@@ -1,0 +1,17 @@
+.loadingImg{
+    max-width: 50%;
+}
+form input{
+    border-radius: 15px;
+    border: 1px solid #4052d9;
+    width: 100%;
+    height: 35px;
+}
+.input-container{
+    position: relative;
+}
+.input-container i{
+    position: absolute;
+    right: 9px;
+    bottom: 10px;
+}

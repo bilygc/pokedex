@@ -1,0 +1,26 @@
+.pkmn-gral{
+    text-transform: uppercase;
+}
+.pkmn-gral .pkmn-exp, .pkmn-gral .pkmn-weight{
+    text-align: end;
+}
+.pkmn-gral p{
+    display: inline;
+}
+
+.pkmn-gral .img-front{
+    min-width: 60%;
+    height: auto;
+}
+.table-header div{
+    background-color: #ffe031;
+}
+.table-header div:last-child{
+    text-align: end;
+}
+.table-content div:nth-child(odd){
+    background-color: #fffae0;
+}
+.table-content div:nth-child(even){
+    background-color: #ffe031;
+}
