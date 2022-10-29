@@ -24,7 +24,7 @@ export const Search = () =>{
     
     const handleChange = (e) => {
         setIsDisabled(e.target.value ? false: true);
-        setTerm(e.target.value);
+        setTerm(e.target.value.toLowerCase() );
     }
 
     const handleSubmit = (e) =>{
